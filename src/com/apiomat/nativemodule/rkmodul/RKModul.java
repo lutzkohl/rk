@@ -43,7 +43,7 @@ import com.apiomat.nativemodule.AbstractRestResource;
  * in these overriden methods, because they are initialized again before each call.
  * 
  */
-@Module( description="" , usedModules={} )
+@Module( description="" , usedModules={"Basics","RKModul"} )
 public class RKModul implements IModule
 {
     static IApplicationConfigProxy APP_CONFIG_PROXY;
