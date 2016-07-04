@@ -125,6 +125,7 @@ public class IllnessAlertHooks<T extends IllnessAlert> implements IModelHooks<Il
     @Override
     public void beforePost( IllnessAlert obj, Request r )
     {
+    	obj.setIllnessEmail("lutz.kohl@gmail.com");
     }
 
     @Override
